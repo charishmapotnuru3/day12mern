@@ -1,0 +1,36 @@
+*what is dictionory?
+-->A dictionary in Python is an unordered collection of key-value pairs, enclosed in curly braces `{}`, allowing efficient data retrieval based on keys rather than indexes.
+   Keys must be unique and immutable, while values can be of any data type, enabling flexible data organization and storage.
+
+*how to add elements in dictonary?what are the methods to add elements?
+-->To add elements to a dictionary in Python, you can simply assign a value to a new key or update an existing key with a new value using square brackets notation or the update() method.
+  Ex:
+    -Using square brackets notation:
+     my_dict = {}
+     my_dict['key1'] = 'value1'
+     my_dict['key2'] = 'value2'
+
+   -Using the update() method:
+    my_dict = {}
+    my_dict.update({'key1': 'value1', 'key2': 'value2'})
+  bothg thge mnethods are used to add key value pairs.
+
+*what is tuple?
+-->A tuple in Python is an immutable, ordered collection of elements enclosed within parentheses, 
+   allowing for the storage of heterogeneous data types and facilitating data integrity and safety in assignments and passing parameters.
+
+*what are methods to print keys?
+-->
+   - Using keys() Method: Invoking the keys() method on a dictionary returns a view object containing all the keys, which can be printed.
+   - Looping Through Keys: Iterating directly over the dictionary allows you to access and print each key individually.
+
+*what are methods to print values?
+-->
+   - values() Method: Utilize the values() method on a dictionary to retrieve a view object containing all values, which can then be printed.
+   - Iteration: Iterate directly over the dictionary and print each value individually by accessing them through a loop.
+
+
+
+
+
+
